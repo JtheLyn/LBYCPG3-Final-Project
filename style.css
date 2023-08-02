@@ -1,0 +1,92 @@
+.splitbig {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .splitsmall {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    overflow-x: hidden;
+    padding-top: 80px;
+    padding-left: 30px;
+  }
+  
+  .left {
+    left: 0;
+    
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .v1 {
+    border-left: 8px solid green;
+    height: auto;
+    position: auto;
+    margin-left: -6px;
+  }
+  .v2 {
+    border-left: 1px solid gray;
+    height: auto;
+    position: auto;
+    margin-left: -5px;
+  }
+  .bigfont{
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .biggerfont{
+    font-size: 35px;
+    color: green;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 30px;
+    font-style: italic;
+  }
+  .descrip{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding-left: 25px;
+  }
+  .smallfont{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+  }
+  a:link{
+    color:black;
+  }
+  a:active{
+    color:black;
+  }
+  a:hover{
+    color:green;
+    text-decoration:underline;
+  }
+  a:visited{
+    color:black;
+  }
